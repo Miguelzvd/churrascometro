@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Pushster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#formContainer{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    padding: 20px 25px 8px 25px;
+    max-width: 260px;
+    background-image: linear-gradient(45deg, #751f1f, red);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.formContainer-title{
+    text-decoration: overline;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+    font-family: 'Pushster', cursive;
+}
+
+#btn{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 15px;
+    width: 48%;
+    padding: 5px 0px 5px 0px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #5e5e5e;
+    cursor: pointer;
+}
+
+#darkMode{
+    padding: 4px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#resultado span{
+    font-family: 'Alfa Slab One', cursive;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+#resultado img{
+    width: 50px;
+}
+
+ #flatIcons{
+     position:absolute;
+     top: 98%;
+ }
