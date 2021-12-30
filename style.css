@@ -79,5 +79,6 @@ input{
 
  #flatIcons{
      position:absolute;
-     top: 98%;
+     top: 100%;
+     transform: translateY(-100%);
  }
